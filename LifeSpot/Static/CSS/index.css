@@ -16,23 +16,17 @@ header {
     padding-left: 1%;
     padding-top: 1%;
 }
-.search {
-    position: absolute;
-    top: 30px;
-    right: 20px;
+
+input {
+    border: 2px solid darkgrey;
+    border-radius: 2px;
+    outline: none;
 }
 
-#searchfield {
-    width: 400px;
-    height: 37px;
-}
-#searchfield:hover{
-    background-color:aliceblue;
-}
+    input:focus {
+        border: 2px solid dimgrey;
+    }
 
-#searchbutton {
-    height: 37px;
-}
 /* Стили панели навигации */
 .navbar p {
     color: darkgray;
